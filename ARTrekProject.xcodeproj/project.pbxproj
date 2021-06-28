@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC8099186D81CF2E06E67C0 /* Pods_ARTrekProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE5DD31371FD6CB659D842A /* Pods_ARTrekProjectTests.framework */; };
+		3583394D268504C400CE85D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3583394C268504C300CE85D7 /* GoogleService-Info.plist */; };
+		3583394F26861B4D00CE85D7 /* ShareLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3583394E26861B4D00CE85D7 /* ShareLocationViewController.swift */; };
+		3583395426861C4F00CE85D7 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3583395326861C4F00CE85D7 /* MainMenuViewController.swift */; };
+		358717BB2689245100516708 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717BA2689245100516708 /* String+Extension.swift */; };
+		358717BD2689246A00516708 /* FloatingPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717BC2689246A00516708 /* FloatingPoint+Extension.swift */; };
+		358717BF268924BB00516708 /* MDLMaterial+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717BE268924BB00516708 /* MDLMaterial+Extension.swift */; };
+		358717C22689C46700516708 /* GetLocationDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717C12689C46700516708 /* GetLocationDataProtocol.swift */; };
+		358717C52689C58C00516708 /* GetLocationDataFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717C42689C58C00516708 /* GetLocationDataFirebaseService.swift */; };
+		358717C72689C60000516708 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717C62689C60000516708 /* Location.swift */; };
+		358717C92689D85600516708 /* LoadTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717C82689D85600516708 /* LoadTextures.swift */; };
+		358717CD2689DC6D00516708 /* LoadTexturesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358717CC2689DC6D00516708 /* LoadTexturesProtocol.swift */; };
 		3589EE1B2684E10600B30411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589EE1A2684E10600B30411 /* AppDelegate.swift */; };
 		3589EE1D2684E10600B30411 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3589EE1C2684E10600B30411 /* art.scnassets */; };
-		3589EE1F2684E10600B30411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589EE1E2684E10600B30411 /* ViewController.swift */; };
+		3589EE1F2684E10600B30411 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589EE1E2684E10600B30411 /* ARViewController.swift */; };
 		3589EE222684E10600B30411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3589EE202684E10600B30411 /* Main.storyboard */; };
 		3589EE242684E10900B30411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3589EE232684E10900B30411 /* Assets.xcassets */; };
 		3589EE272684E10900B30411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3589EE252684E10900B30411 /* LaunchScreen.storyboard */; };
 		3589EE322684E10A00B30411 /* ARTrekProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589EE312684E10A00B30411 /* ARTrekProjectTests.swift */; };
 		3589EE3D2684E10A00B30411 /* ARTrekProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589EE3C2684E10A00B30411 /* ARTrekProjectUITests.swift */; };
+		5AE96AB6741BD443DC5EE2E4 /* Pods_ARTrekProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A85895AD4D9CD0EC45F46F /* Pods_ARTrekProject.framework */; };
+		7F663961A9FB7680CDF639DD /* Pods_ARTrekProject_ARTrekProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956CDEAF8862B95BD35B3726 /* Pods_ARTrekProject_ARTrekProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AE5DD31371FD6CB659D842A /* Pods_ARTrekProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTrekProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3583394C268504C300CE85D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3583394E26861B4D00CE85D7 /* ShareLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLocationViewController.swift; sourceTree = "<group>"; };
+		3583395326861C4F00CE85D7 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		358717BA2689245100516708 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		358717BC2689246A00516708 /* FloatingPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Extension.swift"; sourceTree = "<group>"; };
+		358717BE268924BB00516708 /* MDLMaterial+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDLMaterial+Extension.swift"; sourceTree = "<group>"; };
+		358717C12689C46700516708 /* GetLocationDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationDataProtocol.swift; sourceTree = "<group>"; };
+		358717C42689C58C00516708 /* GetLocationDataFirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationDataFirebaseService.swift; sourceTree = "<group>"; };
+		358717C62689C60000516708 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		358717C82689D85600516708 /* LoadTextures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadTextures.swift; sourceTree = "<group>"; };
+		358717CC2689DC6D00516708 /* LoadTexturesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadTexturesProtocol.swift; sourceTree = "<group>"; };
 		3589EE172684E10600B30411 /* ARTrekProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTrekProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3589EE1A2684E10600B30411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3589EE1C2684E10600B30411 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		3589EE1E2684E10600B30411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3589EE1E2684E10600B30411 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		3589EE212684E10600B30411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3589EE232684E10900B30411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3589EE262684E10900B30411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,14 @@
 		3589EE382684E10A00B30411 /* ARTrekProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTrekProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3589EE3C2684E10A00B30411 /* ARTrekProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTrekProjectUITests.swift; sourceTree = "<group>"; };
 		3589EE3E2684E10A00B30411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE6269708BBC0DF0E41F5F6 /* Pods-ARTrekProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTrekProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ARTrekProjectTests/Pods-ARTrekProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		525CAA70BBE80D26249E9FF2 /* Pods-ARTrekProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTrekProject.debug.xcconfig"; path = "Target Support Files/Pods-ARTrekProject/Pods-ARTrekProject.debug.xcconfig"; sourceTree = "<group>"; };
+		66A85895AD4D9CD0EC45F46F /* Pods_ARTrekProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTrekProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0063FCA471C3D1DC5EEBAA /* Pods-ARTrekProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTrekProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ARTrekProjectTests/Pods-ARTrekProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		94862975CE89C9AAFFFCC752 /* Pods-ARTrekProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTrekProject.release.xcconfig"; path = "Target Support Files/Pods-ARTrekProject/Pods-ARTrekProject.release.xcconfig"; sourceTree = "<group>"; };
+		956CDEAF8862B95BD35B3726 /* Pods_ARTrekProject_ARTrekProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTrekProject_ARTrekProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A494E7271EAE558233F4DEC2 /* Pods-ARTrekProject-ARTrekProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTrekProject-ARTrekProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-ARTrekProject-ARTrekProjectUITests/Pods-ARTrekProject-ARTrekProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1DDCA66FA4A6993B47702CD /* Pods-ARTrekProject-ARTrekProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTrekProject-ARTrekProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARTrekProject-ARTrekProjectUITests/Pods-ARTrekProject-ARTrekProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE96AB6741BD443DC5EE2E4 /* Pods_ARTrekProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC8099186D81CF2E06E67C0 /* Pods_ARTrekProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F663961A9FB7680CDF639DD /* Pods_ARTrekProject_ARTrekProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0D928535C5CBD5DC22242F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525CAA70BBE80D26249E9FF2 /* Pods-ARTrekProject.debug.xcconfig */,
+				94862975CE89C9AAFFFCC752 /* Pods-ARTrekProject.release.xcconfig */,
+				C1DDCA66FA4A6993B47702CD /* Pods-ARTrekProject-ARTrekProjectUITests.debug.xcconfig */,
+				A494E7271EAE558233F4DEC2 /* Pods-ARTrekProject-ARTrekProjectUITests.release.xcconfig */,
+				4AE6269708BBC0DF0E41F5F6 /* Pods-ARTrekProjectTests.debug.xcconfig */,
+				7D0063FCA471C3D1DC5EEBAA /* Pods-ARTrekProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3583395026861B5800CE85D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				358717C62689C60000516708 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3583395126861B6800CE85D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3589EE202684E10600B30411 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3583395226861B7000CE85D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3589EE1E2684E10600B30411 /* ARViewController.swift */,
+				3583395326861C4F00CE85D7 /* MainMenuViewController.swift */,
+				3583394E26861B4D00CE85D7 /* ShareLocationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		358717B9268923FA00516708 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				358717BA2689245100516708 /* String+Extension.swift */,
+				358717BE268924BB00516708 /* MDLMaterial+Extension.swift */,
+				358717BC2689246A00516708 /* FloatingPoint+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		358717C02689C42000516708 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				358717C12689C46700516708 /* GetLocationDataProtocol.swift */,
+				358717CC2689DC6D00516708 /* LoadTexturesProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		358717C32689C54D00516708 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				358717C42689C58C00516708 /* GetLocationDataFirebaseService.swift */,
+				358717C82689D85600516708 /* LoadTextures.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		3589EE0E2684E10600B30411 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +187,8 @@
 				3589EE302684E10A00B30411 /* ARTrekProjectTests */,
 				3589EE3B2684E10A00B30411 /* ARTrekProjectUITests */,
 				3589EE182684E10600B30411 /* Products */,
+				1A0D928535C5CBD5DC22242F /* Pods */,
+				CCC39E2A2E6B21D6514ADFC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +206,17 @@
 			isa = PBXGroup;
 			children = (
 				3589EE1A2684E10600B30411 /* AppDelegate.swift */,
+				3583395026861B5800CE85D7 /* Models */,
+				3583395126861B6800CE85D7 /* Views */,
+				3583395226861B7000CE85D7 /* Controllers */,
+				358717C32689C54D00516708 /* Services */,
+				358717B9268923FA00516708 /* Extensions */,
+				358717C02689C42000516708 /* Protocols */,
 				3589EE1C2684E10600B30411 /* art.scnassets */,
-				3589EE1E2684E10600B30411 /* ViewController.swift */,
-				3589EE202684E10600B30411 /* Main.storyboard */,
 				3589EE232684E10900B30411 /* Assets.xcassets */,
 				3589EE252684E10900B30411 /* LaunchScreen.storyboard */,
 				3589EE282684E10900B30411 /* Info.plist */,
+				3583394C268504C300CE85D7 /* GoogleService-Info.plist */,
 			);
 			path = ARTrekProject;
 			sourceTree = "<group>";
@@ -128,6 +239,16 @@
 			path = ARTrekProjectUITests;
 			sourceTree = "<group>";
 		};
+		CCC39E2A2E6B21D6514ADFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A85895AD4D9CD0EC45F46F /* Pods_ARTrekProject.framework */,
+				956CDEAF8862B95BD35B3726 /* Pods_ARTrekProject_ARTrekProjectUITests.framework */,
+				2AE5DD31371FD6CB659D842A /* Pods_ARTrekProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3589EE412684E10A00B30411 /* Build configuration list for PBXNativeTarget "ARTrekProject" */;
 			buildPhases = (
+				C843C86F5A91C837AAF244F9 /* [CP] Check Pods Manifest.lock */,
 				3589EE132684E10600B30411 /* Sources */,
 				3589EE142684E10600B30411 /* Frameworks */,
 				3589EE152684E10600B30411 /* Resources */,
+				985C57DBD2E7548825951FF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3589EE442684E10A00B30411 /* Build configuration list for PBXNativeTarget "ARTrekProjectTests" */;
 			buildPhases = (
+				5A065F16B2266F6028FEB34D /* [CP] Check Pods Manifest.lock */,
 				3589EE292684E10A00B30411 /* Sources */,
 				3589EE2A2684E10A00B30411 /* Frameworks */,
 				3589EE2B2684E10A00B30411 /* Resources */,
@@ -170,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3589EE472684E10A00B30411 /* Build configuration list for PBXNativeTarget "ARTrekProjectUITests" */;
 			buildPhases = (
+				B35B7960BB830626AFDA5B56 /* [CP] Check Pods Manifest.lock */,
 				3589EE342684E10A00B30411 /* Sources */,
 				3589EE352684E10A00B30411 /* Frameworks */,
 				3589EE362684E10A00B30411 /* Resources */,
+				63DF3340A1C344C076AF861B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +359,7 @@
 			files = (
 				3589EE1D2684E10600B30411 /* art.scnassets in Resources */,
 				3589EE272684E10900B30411 /* LaunchScreen.storyboard in Resources */,
+				3583394D268504C400CE85D7 /* GoogleService-Info.plist in Resources */,
 				3589EE242684E10900B30411 /* Assets.xcassets in Resources */,
 				3589EE222684E10600B30411 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +381,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A065F16B2266F6028FEB34D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTrekProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63DF3340A1C344C076AF861B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTrekProject-ARTrekProjectUITests/Pods-ARTrekProject-ARTrekProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTrekProject-ARTrekProjectUITests/Pods-ARTrekProject-ARTrekProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTrekProject-ARTrekProjectUITests/Pods-ARTrekProject-ARTrekProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985C57DBD2E7548825951FF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTrekProject/Pods-ARTrekProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARTrekProject/Pods-ARTrekProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARTrekProject/Pods-ARTrekProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35B7960BB830626AFDA5B56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTrekProject-ARTrekProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C843C86F5A91C837AAF244F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARTrekProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3589EE132684E10600B30411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3589EE1F2684E10600B30411 /* ViewController.swift in Sources */,
+				358717C92689D85600516708 /* LoadTextures.swift in Sources */,
+				358717BD2689246A00516708 /* FloatingPoint+Extension.swift in Sources */,
+				358717BF268924BB00516708 /* MDLMaterial+Extension.swift in Sources */,
+				358717CD2689DC6D00516708 /* LoadTexturesProtocol.swift in Sources */,
+				358717C72689C60000516708 /* Location.swift in Sources */,
+				3583395426861C4F00CE85D7 /* MainMenuViewController.swift in Sources */,
+				3589EE1F2684E10600B30411 /* ARViewController.swift in Sources */,
 				3589EE1B2684E10600B30411 /* AppDelegate.swift in Sources */,
+				358717C22689C46700516708 /* GetLocationDataProtocol.swift in Sources */,
+				358717C52689C58C00516708 /* GetLocationDataFirebaseService.swift in Sources */,
+				358717BB2689245100516708 /* String+Extension.swift in Sources */,
+				3583394F26861B4D00CE85D7 /* ShareLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +673,7 @@
 		};
 		3589EE422684E10A00B30411 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525CAA70BBE80D26249E9FF2 /* Pods-ARTrekProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +693,7 @@
 		};
 		3589EE432684E10A00B30411 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94862975CE89C9AAFFFCC752 /* Pods-ARTrekProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +713,7 @@
 		};
 		3589EE452684E10A00B30411 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE6269708BBC0DF0E41F5F6 /* Pods-ARTrekProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +736,7 @@
 		};
 		3589EE462684E10A00B30411 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0063FCA471C3D1DC5EEBAA /* Pods-ARTrekProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +759,7 @@
 		};
 		3589EE482684E10A00B30411 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DDCA66FA4A6993B47702CD /* Pods-ARTrekProject-ARTrekProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +780,7 @@
 		};
 		3589EE492684E10A00B30411 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A494E7271EAE558233F4DEC2 /* Pods-ARTrekProject-ARTrekProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
